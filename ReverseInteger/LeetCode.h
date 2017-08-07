@@ -3,6 +3,7 @@
 
 #include <cstdio>
 #include <cstdlib>
+#include <climits>
 
 #include <iostream>
 #include <vector>
@@ -13,6 +14,13 @@
 #include <string>
 
 using namespace std;
+
+class TowSum {
+public:
+    vector<int> twoSum(vector<int>& nums, int target);
+};
+
+void testTowSum();
 
 class ReverseInteger{
 public:
